@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <form action="#">
+        <table>
+            <tr>
+                <td>调查名称</td>
+                <td><input type="text" placeholder="调查名称格式：创建人姓名-调查名称" class="name"></td>
+            </tr>
+            <tr>
+                <td>调查负责人</td>
+                <td><input type="text" placeholder="负责人名称，不能为空" class="	research"></td>
+            </tr>
+            <tr>
+                <td>调查联系人</td>
+                <td><input type="text" placeholder="联系人名称，不能为空" class="contacts"></td>
+            </tr>
+            <tr>
+                <td>是否预调研</td>
+                <td>
+                    <input type="radio" name="advance" class="yes">是 <input type="radio" name="advance" class="yes">否
+                </td>
+            </tr>
+            <tr>
+                <td>被调查企业账号</td>
+                <td><textarea placeholder="企业账号之间以英文逗号隔开，如234,789,不能为空" class="number"></textarea></td>
+            </tr>
+            <tr>
+                <td>调查摘要</td>
+                <td><textarea placeholder="可以为空" class="desc"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit" id="btn"> 立即创建 </button>
+                    <input type="reset" value="取消">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

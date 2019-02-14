@@ -1,0 +1,51 @@
+form {
+    width: 700px;
+    margin: 20px auto;
+    background-color: #eee;
+    padding: 20px;
+}
+
+table {
+    font-size:14px;
+}
+
+tr td:first-child {
+    text-align: right;
+}
+
+input[type="text"] {
+    width: 600px;
+    height: 30px;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 12px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input[type="radio"] {
+    margin: 5px 0;
+}
+
+textarea {
+    width: 604px;
+    height: 40px;
+    vertical-align: middle;
+    margin: 5px 0;
+}
+button {
+    background-color: rgb(75,162,248);
+    border: none;
+    border-radius: 3px;
+    width: 80px;
+    height: 30px;
+    color: #fff;
+}
+input[type="reset"]{
+    background-color: #fff;
+    width: 50px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
